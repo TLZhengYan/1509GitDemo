@@ -14,6 +14,7 @@
 		BC6328251BCB5B01004EA4DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6328241BCB5B01004EA4DA /* Images.xcassets */; };
 		BC6328281BCB5B01004EA4DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6328261BCB5B01004EA4DA /* LaunchScreen.xib */; };
 		BC6328341BCB5B02004EA4DA /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6328331BCB5B02004EA4DA /* GitDemoTests.m */; };
+		BC63283F1BCB643F004EA4DA /* FitstView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC63283E1BCB643F004EA4DA /* FitstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BC63282D1BCB5B02004EA4DA /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6328321BCB5B02004EA4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6328331BCB5B02004EA4DA /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BC63283D1BCB643F004EA4DA /* FitstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitstView.h; sourceTree = "<group>"; };
+		BC63283E1BCB643F004EA4DA /* FitstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitstView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BC63281C1BCB5B01004EA4DA /* AppDelegate.m */,
 				BC63281E1BCB5B01004EA4DA /* ViewController.h */,
 				BC63281F1BCB5B01004EA4DA /* ViewController.m */,
+				BC63283D1BCB643F004EA4DA /* FitstView.h */,
+				BC63283E1BCB643F004EA4DA /* FitstView.m */,
 				BC6328211BCB5B01004EA4DA /* Main.storyboard */,
 				BC6328241BCB5B01004EA4DA /* Images.xcassets */,
 				BC6328261BCB5B01004EA4DA /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				BC6328201BCB5B01004EA4DA /* ViewController.m in Sources */,
 				BC63281D1BCB5B01004EA4DA /* AppDelegate.m in Sources */,
 				BC63281A1BCB5B01004EA4DA /* main.m in Sources */,
+				BC63283F1BCB643F004EA4DA /* FitstView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				BC6328391BCB5B02004EA4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC63283A1BCB5B02004EA4DA /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				BC63283C1BCB5B02004EA4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
